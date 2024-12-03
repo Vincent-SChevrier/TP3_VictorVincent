@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/82a8b05630.js" crossorigin="anonymous"></script>
+    <link href="CSS/style.css" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
     <header>
-        <div>
+        <div class="header-left">
             <img src="" alt="">
         </div>
-        <nav>
+        <nav class="header-middle">
             <ul>
                 <li>Acceuil</li>
                 <li>Conception</li>
@@ -19,10 +21,10 @@
                 <li>Tendance</li>
             </ul>
         </nav>
-        <div>
+        <div class="header-right">
             <ul>
-                <li id="">Recherche</li> <!-- Barre Recherche -->
-                <li id=""></li> <!-- Icon Profil -->
+                <li class="SearchBar">Recherche <i class="fa-solid fa-magnifying-glass"></i></li> <!-- Barre Recherche -->
+                <li class="Profile"><i class="fa-regular fa-user"></i></li> <!-- Icon Profil -->
             </ul>
         </div>
     </header>
@@ -32,42 +34,60 @@
         </aside>
         <section>
             <h1>Acceuil</h1>
-            <article>
-                <h1 class="Titre-article"></h1>
-            </article>
-            <article>
-
-            </article>
-            <article>
-
-            </article>
-            <article>
-
-            </article>
+            <div class="section-accueil">
+                <article class="article-accueil">
+                    <h1 class="Titre-article">Conception</h1>
+                    <p>
+                        Comment programmer un jeu vidéo par nous-même?
+                    </p>
+                    <p>Les bases &rarr;</p>
+                </article>
+                <article class="article-accueil">
+                    <h1 class="Titre-article">Développeurs</h1>
+                    <p>
+                        Qui sont les studios derrière les plus grands succès?
+                    </p>
+                    <p>Les réputés &rarr;</p>
+                </article>
+            </div>
+            <div class="section-accueil">
+                <article class="article-accueil">
+                    <h1 class="Titre-article">Catégorie</h1>
+                    <p>
+                        Quelles sont les catégories différentes?
+                    </p>
+                    <p>Les essentiels &rarr;</p>
+                </article>
+                <article class="article-accueil">
+                    <h1 class="Titre-article">Tendance</h1>
+                    <p>
+                        Quelles sont les grandes tendances du milieu gaming?
+                    </p>
+                    <p>Les plus populaires &rarr;</p>
+                </article>
+            </div>
         </section>
-        <aside> <!-- Ads (gif ou carousel) -->
+        <aside> <!-- Ads (gif ou carousel) --> <!-- signe trade mark - TM (&trade;) -->
 
         </aside>
     </main>
     <footer>
-        <div>
+        <div class="footer-left">
             <nav>
                 <p>À propos</p>
             </nav>
         </div>
-        <div>
+        <div class="footer-middle">
             <nav>
                 <p>Nos sources</p>
             </nav>
         </div>
-        <div>
-            <nav>
-                <p>Nous Suivre</p>
-            </nav>
+        <div class="footer-right">
+            <p>Nous Suivre</p>
             <ul>
-                <li></li> <!-- Logo Facebook -->
-                <li></li> <!-- Logo X -->
-                <li></li> <!-- Logo Instagram -->
+                <li><i class="fa-brands fa-facebook"></i></li> <!-- Logo Facebook -->
+                <li><i class="fa-brands fa-x-twitter"></i></li> <!-- Logo X -->
+                <li><i class="fa-brands fa-square-instagram"></i></li> <!-- Logo Instagram -->
             </ul>
         </div>
     </footer>
