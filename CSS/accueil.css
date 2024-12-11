@@ -101,6 +101,7 @@ header{
     justify-content: center;
     align-items: center;
     height: 25px;
+    width: 25px;
 }
 
 
@@ -161,7 +162,7 @@ article{
 
 .article-accueil p, .article-accueil a, .article-accueil h1 {
     position: relative;
-    bottom: 70px;
+    bottom: 50px;
 }
 
 .link-message {
@@ -191,7 +192,7 @@ aside{
     background-color: gray;
     margin: 20px;
     margin-left: 40px;
-    margin-right: 40px;
+    /* margin-right: 40px; */
 }
 
 footer{
@@ -202,10 +203,6 @@ footer{
     text-align: center;
     background-color: #52535e;
     width: 100%;
-}
-
-.footer-right p{
-    background-color: #485BFF;
 }
 
 .footer-left{
@@ -261,7 +258,7 @@ footer{
 
 .footer-right p, ul, li{
     display: inline-block;
-    display: flex;
+    display: flex;          /*À teminer*/
     flex: 2;
     align-items: center;
     vertical-align: middle;
@@ -279,4 +276,11 @@ footer{
     display: flex; 
     justify-content: center; 
     align-items: center; 
+}
+
+aside img {
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    vertical-align: middle;
 }
