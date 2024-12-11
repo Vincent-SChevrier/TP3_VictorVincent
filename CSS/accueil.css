@@ -44,15 +44,17 @@ header{
 }
 
 .header-left{
-    background-color: #2B305D;
+    background-color: rgba(43, 48, 93, 0.5);
     width: 255px;
     height: 120px;
     margin: 5px;
     border-radius: 10px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
 }
 
 .header-left>img{
-    background-color: #2B305D;
     width: 171px;
     height: 112px;
     border-radius: 90px;
@@ -62,6 +64,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: 5;
     width: 600px;
     height: 134px;
 }
@@ -76,22 +79,30 @@ header{
 }
 
 .header-right{
-    background-color: #2B305D;
+    background-color: rgba(43, 48, 93, 0.5);
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 330px;
     height: 120px;
     margin: 5px;
     border-radius: 10px;
+    gap: 5px;
 }
 
 .search-bar{
-    background-color:#2B305D ;
+    background-color: rgba(3, 29, 255, 0.5) ;
 }
 
 .profile{
-    
+    background-color: rgba(3, 29, 255, 0.5);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
 }
+
 
 main{
     display: flex;
@@ -117,7 +128,7 @@ article{
     display: flex;
     align-items: center; 
     justify-content: center; 
-    margin: 10px 0;
+    margin: 15px 0;
 }
 
 .titre-article, .link-message {
@@ -141,6 +152,11 @@ article{
     margin-top: 10px;
     margin-bottom: 30px;
     padding: 15px;
+}
+
+.article-accueil>h1 {
+    font-size: 15px;
+    margin: 5px 0;
 }
 
 .article-accueil p, .article-accueil a, .article-accueil h1 {
@@ -245,6 +261,10 @@ footer{
 
 .footer-right p, ul, li{
     display: inline-block;
+    display: flex;
+    flex: 2;
+    align-items: center;
+    vertical-align: middle;
 }
 
 .button-footer {
