@@ -260,7 +260,7 @@ footer{
     display: inline-block;
     display: flex;          /*À teminer*/
     flex: 2;
-    align-items: center;
+    align-items: center;     /*Mettre .footer-right avant le ul et le il pour avoir le header des autres à régler */
     vertical-align: middle;
 }
 
