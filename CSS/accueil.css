@@ -319,3 +319,8 @@ aside img {
     align-items: center;
     vertical-align: middle;
 }
+
+input[type="text"] {
+    border: none; 
+    outline: none;
+}
