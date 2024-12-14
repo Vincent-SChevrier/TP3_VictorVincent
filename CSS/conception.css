@@ -129,14 +129,66 @@ header{
     opacity: 90%;
 }
 
+main{
+    display: flex;
+    flex-direction: row;
+    background-color: #c7cae6;
+    width: 100%;
+}
 
+section {
+    height: 100%;
+    width: 90%;
+}
+
+section>h1 {
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: left;
+    font-size: 25px;
+    margin: 20px;
+    margin-left: 30px;
+}
+
+.section-conception{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.article-conception{
+    width: 500px;
+    height: 130px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.article-conception>h3{
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: 10px;
+}
+
+.article-conception>p{
+    font-size: 14px;
+    font-weight: lighter;
+    margin-left: 5px;
+}
+
+.bg{
+    background-color: #4853bb3b;
+}
 
 aside{
     width: 225px;
     height: 711px;
     background-color: gray;
     margin: 20px;
-    margin-left: 40px;
+    margin-left: 70px;
     /* margin-right: 40px; */
 }
 

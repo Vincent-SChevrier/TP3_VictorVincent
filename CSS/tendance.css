@@ -129,7 +129,56 @@ header{
     opacity: 90%;
 }
 
+main{
+    display: flex;
+    flex-direction: row;
+    background-color: #c7cae6;
+    width: 100%;
+}
 
+section {
+    height: 100%;
+    width: 90%;
+}
+
+section>h1 {
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: left;
+    font-size: 25px;
+    margin: 20px;
+    margin-left: 30px;
+}
+
+.section-tendance{
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    height: 170px;
+    margin: 40px;
+}
+.section-tendance img{
+    width: 300px;
+    height: 170px;
+}
+
+.article-tendance{
+    background-color: #6E729A;
+}
+
+.article-tendance h2{
+    color: black;
+    margin-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 24px;
+}
+
+.article-tendance p{
+    color: white;
+    margin-left: 5px;
+    font-size: 16px;
+}
 
 aside{
     width: 225px;
