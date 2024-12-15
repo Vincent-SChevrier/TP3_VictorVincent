@@ -205,14 +205,29 @@ footer{
     width: 500px;
     height: 120px;
     margin: 5px;
-    z-index: 1;
+}
+
+#myModal img {
+    height: 150px;
+    width: 120px;
+}
+
+.footer-left button {
+    background-color: transparent;
+    border-color: transparent; 
+}
+
+.modal-header {
+    display: block;
 }
 
 .footer-left p{
     background-color: #485affcc;
     width: 205px;
     height: 70px;
-    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-left nav {
