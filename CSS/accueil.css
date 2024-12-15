@@ -306,8 +306,6 @@ footer{
     width: 120px;
 }
 
-
-
 .modal-header {
     display: block;
 }
@@ -392,10 +390,9 @@ footer{
     align-items: center; 
 }
 
-.footer-left button {
+.footer-left button, .footer-middle button {
     background-color: transparent;
-    border-color: transparent;
-    
+    border-color: transparent; 
 }
 
 aside img {
