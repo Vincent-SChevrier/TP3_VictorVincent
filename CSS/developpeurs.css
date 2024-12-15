@@ -57,10 +57,58 @@ header{
     align-items: center;
 }
 
-.header-left>img{
+.header-left img{
+    width: 100%;
+    height: 100%;
+    border-radius: 90px;
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    cursor: default;
+}
+
+.dropdown {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 171px;
     height: 112px;
-    border-radius: 90px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 171px;
+    top: 112px;
+    z-index: 1000;
+}
+
+.dropdown-content a {
+    background-color: #b2bafe;
+    color: black;
+    padding: 4px 4px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #4853bb;
+    color: white;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #4854BB;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 .header-middle{
