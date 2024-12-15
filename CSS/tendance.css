@@ -183,7 +183,7 @@ section>h1 {
 aside{
     width: 225px;
     height: 711px;
-    background-color: gray;
+    background-image: url(../Images/ad.png);
     margin: 20px;
     margin-left: 40px;
     /* margin-right: 40px; */
