@@ -82,6 +82,10 @@ header{
     border-bottom: 3px solid black;
 }
 
+.header-middle.active {
+    border-bottom: 3px solid black;
+}
+
 .header-right{
     background-color: rgba(43, 48, 93, 0.5);
     display: flex;
@@ -216,6 +220,23 @@ aside{
     /* margin-right: 40px; */
 }
 
+#carousel-jeux {
+    height: 127px;
+}
+
+#aside-accueil-jeux {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#aside-accueil-jeux>h6 {
+    text-align: center;
+    margin: 0;
+    width: 225px;
+}
+
 footer{
     display: flex;
     flex-direction: row;
@@ -232,14 +253,18 @@ footer{
     width: 500px;
     height: 120px;
     margin: 5px;
-    z-index: 1;
+    /* z-index: 1; */
+}
+
+.modal-header {
+    display: block;
 }
 
 .footer-left p{
     background-color: #485affcc;
     width: 205px;
     height: 70px;
-    z-index: 2;
+    /* z-index: 2; */
 }
 
 .footer-left nav {
@@ -311,6 +336,12 @@ footer{
     display: flex; 
     justify-content: center; 
     align-items: center; 
+}
+
+.footer-left button {
+    background-color: transparent;
+    border-color: transparent;
+    
 }
 
 aside img {
