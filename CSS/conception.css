@@ -236,9 +236,14 @@ aside{
     width: 225px;
     height: 711px;
     background-image: url(../Images/ad.png);
+<<<<<<< HEAD
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 10px;
+=======
+    margin: 20px;
+    margin-left: 70px;
+>>>>>>> 9ae5d23500a527f3a16eed5e20185c4cba661790
 }
 
 footer{
@@ -326,8 +331,8 @@ footer{
 }
 
 .footer-right>ul{
-    display: flex;          /*À teminer*/
-    align-items: center;     /*Mettre .footer-right avant le ul et le il pour avoir le header des autres à régler */
+    display: flex;         
+    align-items: center;    
     vertical-align: middle;
     justify-content: center;
     gap: 10px;
