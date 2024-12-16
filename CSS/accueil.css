@@ -20,6 +20,11 @@
     font-style: normal;
 } 
 
+@keyframes anim {
+    from {background-color: #4854BB;}
+    to {background-color: #B2BAFE;}
+}
+
 body{
     background-color: #c6c9e6;
     width: 1440px;
@@ -226,6 +231,11 @@ section>h1 {
     padding: 15px;
 }
 
+.article-accueil :hover{
+    transition: background-color 0.5s ease-in-out;
+    background-color: #B2BAFE;
+}
+
 .article-accueil>h1{
     background-color: #031DFF;
     color: white;
@@ -237,10 +247,6 @@ section>h1 {
     width: 176px;
     height: 34px;
     border-radius: 30px;
-}
-
-.article-accueil :hover{
-
 }
 
 .article-accueil p, .article-accueil a, .article-accueil h1 {
