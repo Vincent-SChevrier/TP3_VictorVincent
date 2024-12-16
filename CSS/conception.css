@@ -213,6 +213,7 @@ section>h1 {
     margin-bottom: 45px;
     padding-top: 10px;
     padding-bottom: 10px;
+    border: 1px solid gray;
 }
 
 .article-conception>h3{
