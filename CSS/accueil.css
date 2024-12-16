@@ -226,9 +226,21 @@ section>h1 {
     padding: 15px;
 }
 
-.article-accueil>h1 {
+.article-accueil>h1{
+    background-color: #031DFF;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     font-size: 15px;
     margin: 5px 0;
+    width: 176px;
+    height: 34px;
+    border-radius: 30px;
+}
+
+.article-accueil :hover{
+
 }
 
 .article-accueil p, .article-accueil a, .article-accueil h1 {
@@ -244,17 +256,6 @@ section>h1 {
 
 .text-resume {
     font-size: 22px;
-}
-
-.article-accueil>h1{
-    background-color: #031DFF;
-    color: white;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 176px;
-    height: 34px;
-    border-radius: 30px;
 }
 
 aside{
