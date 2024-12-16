@@ -200,6 +200,7 @@ section>h1 {
 }
 
 .titre-article {
+    background-color: #031DFF;
     text-align: center;
     vertical-align: middle;
     display: flex;
@@ -215,6 +216,7 @@ section>h1 {
 .article-accueil{
     background-color: #4854BB;
     color: white;
+    border: solid transparent thin;
     font-size:18px;
     text-align: justify;
     display: flex; 
@@ -231,9 +233,16 @@ section>h1 {
     padding: 15px;
 }
 
+.section-accueil :hover{
+    transition: background-color 1s ease-in-out;
+    transition: color 0.5s ease-in-out;
+    background-color: #6a77e9;
+    color: black;
+    border: solid black thin;
+}
+
 .article-accueil :hover{
-    transition: background-color 0.5s ease-in-out;
-    background-color: #B2BAFE;
+    border: solid transparent thin;
 }
 
 .article-accueil>h1{
