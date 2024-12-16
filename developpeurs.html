@@ -19,11 +19,11 @@
     <title>Développeurs</title>
 </head>
 <body>
-    <header class="container-fluid">
-        <div class="header-left">
+    <header class="container-fluid col-12">
+        <div class="header-left container-fluid col-3">
             <div class="dropdown">
                 <button class="btn-block active dropbtn">
-                    <img src="Images/logo tp3 web.png" alt="logo web">
+                    <img src="Images/logo tp3 web.png" alt="logo web" class="image-fluid">
                 </button>
                 <div class="dropdown-content">
                     <a href="accueil.html">Accueil</a>
@@ -34,7 +34,7 @@
                 </div>
             </div>
         </div>
-        <nav class="header-middle">
+        <nav class="header-middle container-fluid col-6">
             <ul>
                 <li><a href="accueil.html">Accueil</a></li>
                 <li><a href="conception.html">Conception</a></li>
@@ -43,22 +43,20 @@
                 <li><a href="tendance.html">Tendance</a></li>
             </ul>
         </nav>
-        <div class="header-right">
-            <div class="row">
-                <div class="search-bar">
-                    <input type="text" placeholder="Rechercher">
-                    <i class="fa-solid fa-magnifying-glass textdark"></i>
-                </div>
-                <i class="profile fa-regular fa-user mx-2 textdark"></i>
+        <div class="header-right container-fluid col-3">
+            <div class="search-bar col-9">
+                <input type="text" placeholder="Rechercher" class="mx-2">
+                <i class="fa-solid fa-magnifying-glass textdark"></i>
             </div>
+            <i class="profile fa-regular fa-user mx-1 textdark col-3"></i>
         </div>
     </header>
-    <main>
-        <section class="row">
+    <main class="container-fluid">
+        <section class="row col-10">
             <h1 class="m-3">Top 3 des studios de développement de jeux vidéos les plus aimés :</h1>
-            <div class="section-developpeurs">
+            <div class="section-developpeurs container-fluid col-12">
                 <div class="card-header">
-                    <img src="Images/nintendo.png" alt="Nintendo">
+                    <img src="Images/nintendo.png" alt="Nintendo" class="image-fluid">
                 </div>
                 <article class="article-developpeurs card-body">
                     <h2 class="my-2">1. Nintendo&reg;</h2>
@@ -72,9 +70,9 @@
                     </p>
                 </article>
             </div>
-            <div class="section-developpeurs">
+            <div class="section-developpeurs container-fluid col-12">
                 <div class="card-header">
-                    <img src="Images/bethesda.png" alt="Bethesda">
+                    <img src="Images/bethesda.png" alt="Bethesda" class="image-fluid">
                 </div>
                 <article class="article-developpeurs card-body">
                     <h2 class="my-2">2. Bethesda Game Studios&reg;</h2>
@@ -87,9 +85,9 @@
                     </p>
                 </article>
             </div>
-            <div class="section-developpeurs">
+            <div class="section-developpeurs container-fluid col-12">
                 <div class="card-header">
-                    <img src="Images/Bioware.png" alt="Bioware">
+                    <img src="Images/Bioware.png" alt="Bioware" class="image-fluid">
                 </div>
                 <article class="article-developpeurs card-body">
                     <h2 class="my-2">3. Bioware&reg;</h2>
@@ -103,13 +101,13 @@
                 </article>
             </div>
         </section>
-        <aside>
+        <aside class="container-fluid col-2">
 
         </aside>
     </main>
-    <footer>
-        <div class="footer-left">
-            <nav>
+    <footer class="container-fluid col-12">
+        <div class="footer-left container-fluid">
+            <nav class="col-12">
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
                     <p class="button-footer">À propos</p> 
                   </button>
@@ -133,9 +131,9 @@
                 </div>
             </nav>
         </div>
-        <div class="footer-middle">
-            <nav>
-                <button type="button" class="btn btn-primary" data-bs-toggle="popover" title="Les sources de cette page" data-bs-content="Logo du site : www.ecranmobile.fr Information : www.techspot.com Nintendo : www.dissenyfigueres.com Bethesda : www.whatgamesworlds.blogspot.com Bioware : www.polygon.com Pub : www.learn-html.org">
+        <div class="footer-middle container-fluid">
+            <nav class="col-12">
+                <button type="button" class="btn btn-primary" data-bs-toggle="popover" title="Les sources de cette page" data-bs-content="Logo du site : www.ecranmobile.fr Elden Ring: www.wallpapersden.com Call of Duty : bettyhudson851headline.blogspot.com Fortnite : www.gamerant.com Pub : www.learn-html.org">
                     <p class="button-footer">Nos sources</p>
                 </button>   
                 <script>
@@ -148,8 +146,8 @@
                 </script> 
             </nav>
         </div>
-        <div class="footer-right">
-            <ul>
+        <div class="footer-right container-fluid col-12">
+            <ul class="container-fluid">
                 <li class="button-footer">Nous Suivre</li>
                 <li><a href="#"><i class="fa-brands fa-facebook fa-3x"></i></a></li> <!-- Logo Facebook -->
                 <li><a href="#"><i class="fa-brands fa-x-twitter fa-3x"></i></a></li> <!-- Logo X -->

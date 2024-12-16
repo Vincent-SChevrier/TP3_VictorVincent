@@ -244,8 +244,8 @@ aside{
     width: 225px;
     height: 711px;
     background-image: url(../Images/ad.png);
-    margin: 20px;
-    /* margin-right: 40px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 footer{

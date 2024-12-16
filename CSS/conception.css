@@ -186,7 +186,7 @@ main{
 
 section {
     height: 100%;
-    width: 90%;
+    width: 89%;
 }
 
 section>h1 {
@@ -236,9 +236,9 @@ aside{
     width: 225px;
     height: 711px;
     background-image: url(../Images/ad.png);
-    margin: 20px;
-    margin-left: 70px;
-    /* margin-right: 40px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
 }
 
 footer{

@@ -186,7 +186,7 @@ main{
 
 section {
     height: 100%;
-    width: 90%;
+    width: 85%;
 }
 
 section>h1 {
@@ -203,7 +203,9 @@ section>h1 {
     flex-direction: row;
     width: 900px;
     height: 170px;
-    margin: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
 }
 .section-tendance img{
     width: 300px;
@@ -232,9 +234,8 @@ aside{
     width: 225px;
     height: 711px;
     background-image: url(../Images/ad.png);
-    margin: 20px;
-    margin-left: 40px;
-    /* margin-right: 40px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 footer{

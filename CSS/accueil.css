@@ -278,7 +278,6 @@ aside{
     height: 711px;
     margin-top: 20px;
     margin-bottom: 20px;
-    /* margin-right: 40px; */
 }
 
 aside:not(#carousel-jeux) {
