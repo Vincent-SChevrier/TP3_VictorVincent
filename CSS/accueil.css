@@ -272,7 +272,7 @@ aside{
     /* margin-right: 40px; */
 }
 
-#aside-bg-img {
+aside:not(#carousel-jeux) {
     background-image: url(../Images/ad.png);
 }
 
@@ -287,9 +287,9 @@ aside{
     align-items: center;
 }
 
-#aside-accueil-jeux>h6 {
+#aside-accueil-jeux h6 {
     text-align: center;
-    margin: 0;
+    margin: 10px 0;
     width: 225px;
 }
 
