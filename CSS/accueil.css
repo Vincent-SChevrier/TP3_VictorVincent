@@ -266,7 +266,7 @@ section>h1 {
 .link-message {
     position: relative;
     top: 30px;
-    left: 50px;              /* À régler pour que tout soit égal*/
+    left: 50px;              
 } 
 
 .text-resume {
@@ -278,7 +278,6 @@ aside{
     height: 711px;
     margin-top: 20px;
     margin-bottom: 20px;
-    /* margin-right: 40px; */
 }
 
 aside:not(#carousel-jeux) {
@@ -393,8 +392,8 @@ footer{
 }
 
 .footer-right>ul{
-    display: flex;          /*À teminer*/
-    align-items: center;     /*Mettre .footer-right avant le ul et le il pour avoir le header des autres à régler */
+    display: flex;         
+    align-items: center;     
     vertical-align: middle;
     justify-content: center;
     gap: 10px;

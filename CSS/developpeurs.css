@@ -245,7 +245,6 @@ aside{
     height: 711px;
     background-image: url(../Images/ad.png);
     margin: 20px;
-    /* margin-right: 40px; */
 }
 
 footer{
@@ -333,8 +332,8 @@ footer{
 }
 
 .footer-right>ul{
-    display: flex;          /*À teminer*/
-    align-items: center;     /*Mettre .footer-right avant le ul et le il pour avoir le header des autres à régler */
+    display: flex;          
+    align-items: center;     
     vertical-align: middle;
     justify-content: center;
     gap: 10px;
