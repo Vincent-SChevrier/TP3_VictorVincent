@@ -293,6 +293,17 @@ aside:not(#carousel-jeux) {
     width: 225px;
 }
 
+.card-question {
+    background-color: #2b305dc9;
+    color: white;
+    padding: 5px;
+}
+
+.card-number {
+    background-color: #485affcc;
+    padding: 5px;
+}
+
 footer{
     display: flex;
     flex-direction: row;
